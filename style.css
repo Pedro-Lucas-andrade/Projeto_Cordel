@@ -16,7 +16,7 @@ header{
 h1{
     font-family: var(--FONTE_DESTAQUE);
     font-weight: normal;
-    font-size: 5vw;
+    font-size: 8vw;
 }
 header a{
     color: white;
@@ -27,7 +27,7 @@ header a:hover{
     text-decoration: underline;
 }
 .foto{
-    width: 100%;
+    width: 102%;
     min-height: 50vh;
     max-height: 150vh;
     background-image: url('arquivos/imagens/background001.jpg');
@@ -36,6 +36,8 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.611);
+    margin-left: -8px;
 }
 #foto02{
     background-image: url('arquivos/imagens/background002.jpg');
@@ -51,7 +53,7 @@ header a:hover{
 }
 main p{
     line-height: 2em;
-    padding: 10vh 0px 10vh 30px;
+    padding: 5vh 0px 2vh 30px;
     font-family: var(--FONTE_PRINCIPAL);
     font-size: 4vw;
 }
